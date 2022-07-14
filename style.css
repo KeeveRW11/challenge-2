@@ -1,0 +1,167 @@
+
+
+body {
+    background-color:greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Notice that header is sticky*/
+header{
+    background-color: #7DF9FF;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    padding: 20px 35px;
+    font-weight: bold;
+    justify-content: space-between;
+    display: flex;
+    flex: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+}
+
+header h1 {
+    font-weight: bold;
+    font-weight: 36px;
+    color: aqua;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav {
+    margin: 7px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 2vw;
+
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.5vw;
+}
+
+.about-me {
+    text-align: center;
+}
+
+.memoji {
+    text-align: center;
+}
+
+.notes {
+    text-align: center;
+}
+
+#My-Work {
+    text-align: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.work img {
+    width: max-content;
+    object-fit: cover;
+}
+
+/*Atempt to create boxes*/
+#html{
+    height:300px;
+    width:300px;
+    background-image:url("../images/html.jpg");
+    margin:0;
+}
+
+#css{
+    height:300px;
+    width:300px;
+    background-image:url("../images/css.jpg");
+    position:relative;
+    left:320px;
+    bottom:300px;
+    margin:0;
+}
+
+ #javascript{
+    height:300px;
+    width:300px;
+    background-image:url("../images/js.jpg");
+    position:relative;
+    bottom:280px;
+}
+
+#apis{
+    height:300px;
+    width:300px;
+    background-image:url("../images/api.jpg");
+    position:relative;
+    left:320px;
+    bottom: 580px;
+    margin: 0;
+}
+
+
+footer {
+    background-color: #7DF9FF;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px 35px;
+}
+
+footer h2 {
+    color: black;
+    font-size: 16px;
+    margin: 0;
+}
+
+footer h2 p {
+    font-size: 24px;
+}
+
+footer div {
+    line-height: 1.5;
+    text-align: left;
+}
+
+.html {
+    display: flex;
+    width: 100%;
+}
+
+.css {
+    width: 50%;
+}
+
+.js {
+    margin: 0px;
+}
+
+.run-buddy {
+    display: flex;
+    width: 100%;
+}
+
+.image{
+    max-width: 100%;
+    max-height: 100%;
+}
+
